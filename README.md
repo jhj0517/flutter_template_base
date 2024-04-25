@@ -1,5 +1,5 @@
 # Flutter Template Starter
-This is the Flutter template starter with [mason](https://github.com/felangel/mason). 
+This is the Flutter template starter (Template of templates) with [mason](https://github.com/felangel/mason). 
 
 # Platforms
 The mustache syntax `{{application_id}}` is implemented across 6 platforms. Only Android has been tested. If any errors occur or if it works fine on other platforms, please raise an issue and let me know.
@@ -17,22 +17,26 @@ There're 4 prompts for the brick.
 3. `application_id` : App id after the organization name. Used on multiple platforms with `org_name`.
 4. `description` : Project description.
 
-# How to Make Template
-1. Git clone this repository
+# How to Make & Use Template
+1. Install Mason CLI ( If it's not installed )
+   ```
+   dart pub global activate mason_cli
+   ```
+2. Git clone this repository
    ```
    https://github.com/jhj0517/flutter_template_starter.git
    ```
-2. Go to [project folder](https://github.com/jhj0517/flutter_template_starter/tree/master/flutter_template_starter/__brick__/%7B%7Bproject_name.snakeCase()%7D%7D) and make your own template.
-3. Add the brick as the global (you can edit the brick name in `mason.yaml` as you want )
+3. Make your own template in the `__brick__/{{project_name.snakeCase()}}` folder.
+4. Add the brick as the global (you can change the brick name in [`brick.yaml`](https://github.com/jhj0517/flutter_template_starter/blob/master/brick.yaml) as you want. )
    ```
-   mason add -g flutter_template_starter --path flutter_template_starter 
+   mason add -g flutter_template_starter --path ./
    ```
-4. Check that the brick is added correctly.
+5. Check that the brick is added correctly.
     ```
     mason ls -g
     ├── flutter_template_starter 0.1.0  // it prints something like this
     ```
-5. You can now start a new project with your own template
+6. You can now start a new project with your own template
    ```
    mason make flutter_template_starter
    ```
