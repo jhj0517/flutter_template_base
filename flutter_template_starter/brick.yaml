@@ -1,6 +1,5 @@
-name: flutter_mvvm_template_provider
-description: Flutter MVVM (Provider) Template
-repository: https://github.com/jhj0517/flutter-mvvm-template-provider/tree/master/flutter-mvvm-template-provider
+name: flutter_template_starter
+description: Flutter Template Starter
 
 version: 0.1.0
 
