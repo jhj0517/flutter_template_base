@@ -11,7 +11,7 @@ vars:
   project_name:
     type: string
     description: Project name
-    default: flutter_template_starter
+    default: example_project_name
     prompt: What is the project name?
   org_name:
     type: string
