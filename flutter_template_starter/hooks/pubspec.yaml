@@ -1,0 +1,10 @@
+name: very_good_core_hooks
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  mason: ^0.1.0-dev.52
+
+dev_dependencies:
+  mocktail: ^1.0.3

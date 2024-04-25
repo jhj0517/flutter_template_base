@@ -1,0 +1,30 @@
+name: flutter_mvvm_template_provider
+description: Flutter MVVM (Provider) Template
+repository: https://github.com/jhj0517/flutter-mvvm-template-provider/tree/master/flutter-mvvm-template-provider
+
+version: 0.1.0
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: Project name
+    default: flutter_template_starter
+    prompt: What is the project name?
+  org_name:
+    type: string
+    description: Organization name
+    default: com.example
+    prompt: What is the organization name?
+  application_id:
+    type: string
+    description: application id on Android and iOS.
+    default: myapp
+    prompt: What is the application id? ( the name after the organization name. )
+  description:
+    type: string
+    description: Project description
+    default: Flutter Template Starter
+    prompt: What is the project description?
