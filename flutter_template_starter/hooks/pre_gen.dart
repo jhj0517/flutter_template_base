@@ -16,7 +16,16 @@ String _appId(HookContext context, {Platform? platform}) {
   final projectName = context.vars['project_name'] as String;
 
   var applicationId = context.vars['application_id'] as String;
-  applicationId = '''$orgName.${platform == Platform.android ? projectName.snakeCase : projectName.paramCase}''';
 
+  if (_isNameCompleted(applicationId)){
+    return applicationId;
+  }
+
+  applicationId = '''$orgName.${platform == Platform.android ? projectName.snakeCase : projectName.paramCase}''';
   return applicationId;
+}
+
+bool _isNameCompleted(String applicationId) {
+  List<String> parts = applicationId.split('.');
+  return parts.length == 3;
 }
