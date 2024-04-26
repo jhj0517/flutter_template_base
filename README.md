@@ -14,7 +14,7 @@ The mustache syntax `{{application_id}}` is implemented across 6 platforms. Only
 There're 4 prompts for the brick.
 1. `project_name` : Project name. 
 2. `org_name` : Organization name like `com.example`. 
-3. `application_id` : App id after the organization name. 
+3. `application_id` : App id after the organization name. Used on multiple platforms with `org_name`.
 4. `description` : Project description.
 
 # How to Make & Use Template
