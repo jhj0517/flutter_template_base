@@ -24,7 +24,7 @@ There're 4 prompts for the brick.
    ```
 2. Git clone this repository
    ```
-   https://github.com/jhj0517/flutter_template_starter.git
+   git clone https://github.com/jhj0517/flutter_template_starter.git
    ```
 3. Implement your own template in the `__brick__/{{project_name.snakeCase()}}/lib` folder.
 4. Add the brick as the global (you can change the brick name in [`brick.yaml`](https://github.com/jhj0517/flutter_template_starter/blob/master/brick.yaml) as you want. )
