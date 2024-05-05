@@ -1,5 +1,5 @@
-name: flutter_template_starter
-description: Flutter Template Starter
+name: flutter_template_base
+description: Flutter Template base
 
 version: 0.1.0
 
@@ -25,5 +25,5 @@ vars:
   description:
     type: string
     description: Project description
-    default: Flutter Template Starter
+    default: Flutter Template Base
     prompt: What is the project description?
