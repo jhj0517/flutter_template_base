@@ -26,6 +26,7 @@ String _appId(HookContext context, {Platform? platform}) {
 }
 
 bool _isNameCompleted(String applicationId) {
-  List<String> parts = applicationId.split('.');
-  return parts.length == 3;
+  List<String> android_parts = applicationId.split('.');
+  List<String> ios_parts = applicationId.split('-');
+  return android_parts.length == 3 || ios_parts.length == 3;
 }
