@@ -1,5 +1,6 @@
 # Flutter Template Base
-This is the base for the Flutter template with [mason](https://github.com/felangel/mason). You can start to make a template with this. 
+This is the base for the Flutter template with [mason](https://github.com/felangel/mason). <br>
+The [lib](https://github.com/jhj0517/flutter_template_base/tree/master/__brick__/%7B%7Bproject_name.snakeCase()%7D%7D/lib) folder is empty so you can start to make a template with this. 
 
 # Platforms
 The mustache syntax `{{application_id}}` is implemented across 6 platforms. Only Android has been tested. If any errors occur or if it works fine on other platforms, please raise an issue and let me know.
